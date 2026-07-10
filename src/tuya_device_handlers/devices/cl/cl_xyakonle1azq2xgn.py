@@ -1,8 +1,8 @@
 """Quirk for Tuya blind motor (product_id xyakonle1azq2xgn).
 
-This device does reports ``percent_state`` always as 0.
+This device always reports percent_state as 0.
 
-To be able to control the device, we need to ignore the 
+To be able to control the device, we need to ignore the
 ``percent_control`` and ``percent_state`` DPs.
 """
 
